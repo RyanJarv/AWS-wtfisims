@@ -31,5 +31,6 @@ I feel like when I read lists like this for programming languages you end up get
   * *Sometimes* it grants you delete access (iirc, double check this), but never actually write access.
     You can't write to an object in S3, only delete and then create, but once you delete the ACL is
     gone too.
+  * WriteACL access does actually grant write ACL access howoever.
 
 
