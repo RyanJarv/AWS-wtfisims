@@ -10,5 +10,10 @@ I feel like when I read lists like this for programming languages you end up get
 * AWS resource policy magic (ARN <-> AROA conversions)
   * Convert AROA to arn's (ref: https://twitter.com/__steele/status/1433212318465159171?s=20)
   * Enumerating valid ARN's (ref: bunch of stuff)
+* List actions don't just list stuff.
+  * ListFunctions returns environment variables, which often contains secrets. 
+* Parameters with that have `name` in the name don't actually take a name as the argument.
+  * events:PutRule EventBusName iirc
+      
 
 
