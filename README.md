@@ -14,6 +14,8 @@ I feel like when I read lists like this for programming languages you end up get
   * ListFunctions returns environment variables, which often contains secrets. 
 * Parameters with that have `name` in the name don't actually take a name as the argument.
   * events:PutRule EventBusName iirc
+* AWS actions don't map one to one with IAM actions
+  * It's also not immediately obvious in what cases this happens.
       
 
 
