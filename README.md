@@ -16,6 +16,7 @@ I feel like when I read lists like this for programming languages you end up get
   * events:PutRule EventBusName iirc
 * AWS actions don't map one to one with IAM actions
   * It's also not immediately obvious in what cases this happens.
-      
+* Anyone with access to the IMDS service can intercept SSM sessions for that instancce.
+  *  Can sum this up with the credentials are the only way SSM identifies a connection from a host.
 
 
