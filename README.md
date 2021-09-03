@@ -2,7 +2,7 @@
 
 Seriously.
 
-## SendMessage vs BatchSendMessage
+#### SendMessage vs BatchSendMessage
 
 TODO: Confirm
 
