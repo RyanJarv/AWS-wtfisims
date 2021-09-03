@@ -18,5 +18,7 @@ I feel like when I read lists like this for programming languages you end up get
   * It's also not immediately obvious in what cases this happens.
 * Anyone with access to the IMDS service can intercept SSM sessions for that instancce.
   *  Can sum this up with the credentials are the only way SSM identifies a connection from a host.
+* S3 AllAuthenticatedUsers means *all* AWS users across *all* accounts.
+  *  It's old but it checks out.
 
 
