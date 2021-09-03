@@ -32,5 +32,7 @@ I feel like when I read lists like this for programming languages you end up get
     You can't write to an object in S3, only delete and then create, but once you delete the ACL is
     gone too.
   * WriteACL access does actually grant write ACL access howoever.
+* You can determine an account # from just a bucket name when the bucket is public.
+  * Update conditional acccess block with wildccard, need to find the reference for this.
 
 
