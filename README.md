@@ -27,5 +27,9 @@ I feel like when I read lists like this for programming languages you end up get
   * IAM Policy
   * RAM (something added for s3 in outposts recently, forget what exactly)
   * Public blocks (or whatever the name of those block options are)
+* Write access via object ACLs does not actually grant any write related permissions.
+  * *Sometimes* it grants you delete access (iirc, double check this), but never actually write access.
+    You can't write to an object in S3, only delete and then create, but once you delete the ACL is
+    gone too.
 
 
