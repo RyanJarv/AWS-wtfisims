@@ -1,4 +1,4 @@
-# WTF AWS
+# wtf aws
 
 Seriously.
 
