@@ -20,5 +20,11 @@ I feel like when I read lists like this for programming languages you end up get
   *  Can sum this up with the credentials are the only way SSM identifies a connection from a host.
 * S3 AllAuthenticatedUsers means *all* AWS users across *all* accounts.
   *  It's old but it checks out.
+* There are five different ways of managing S3 permissions.
+  * Bucket ACLs
+  * Object ACLs
+  * Bucket Policy
+  * RAM (something added for s3 in outposts recently, forget what exactly)
+  * Public blocks (or whatever the name of those block options are)
 
 
