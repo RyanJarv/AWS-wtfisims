@@ -39,6 +39,8 @@ Likely won't include all these, just a random list of ideas.
   * Update conditional acccess block with wildccard, need to find the reference for this.
 * sts:GetCallerIdentity access is allowed by default.
   * Heard someone say this can't be blocked, not sure if this is true.
+
+## Inconsistent Parameters
 * `aws secretsmanager create-secret` takes `--name` while `aws secretsanager delete-secret` takes `--secret-id`
 
 
