@@ -15,7 +15,7 @@ Likely won't include all these, just a random list of ideas.
   * Enumerating valid ARN's (ref: bunch of stuff)
 * List actions don't just list stuff.
   * ListFunctions returns environment variables, which often contains secrets. 
-* Parameters with that have `name` in the name don't actually take a name as the argument.
+* Parameters that have `name` in the name don't actually take a name as the argument.
   * events:PutRule EventBusName iirc
 * AWS actions don't map one to one with IAM actions
   * It's also not immediately obvious in what cases this happens.
